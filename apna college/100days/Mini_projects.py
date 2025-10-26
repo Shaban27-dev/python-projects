@@ -18,7 +18,7 @@ elif c == "/":
 else:
     print("Invalid input!")"""
 
-# Treasure game using tkinter (copilot)
+# Treasure game using tkinter (copilot). This code is not written by me.
 """import tkinter as tk
 from tkinter import messagebox
 
@@ -87,7 +87,7 @@ else:
 
 #          DAY_3
 # Write a code for number guessing game (computer picks random number, user guesses)
-import random
+"""import random
 
 def num_guessing(attempt, max_num):
     computer_choice = random.randint(0, max_num)
@@ -150,13 +150,55 @@ while True:
             print("Worst score")
     
     print(f"Best score so far {best_score}\n")
-    print(f"Worst score so far {worst_score}\n")
-
+    print(f"Worst score so far {worst_score}\n")   
+ 
     play_again = input("Do you want to play again? (YES/NO): ").lower()
     if play_again != "yes":
         print("Thanks for playing!")
-        break
+        break"""
 
 
 #          DAY_4
 # Simple ATM simulator(Deposit, Withdraw, Balance)
+balance = 10000
+
+def check_balance():
+    print(f"Your current balance is ${balance:.2f}")
+
+def deposit(amount):
+    global balance
+    if amount > 0:
+        balance += amount
+        print(f"${amount:.2f} deposited succesfully.")
+    else:
+        print("Invalid deposit amount")
+
+def withdraw(amount):
+    global balance
+    if amount <= balance and amount > 0:
+        balance -= amount
+        print(f"${amount:.2f} withdrawn successfully!")
+        check_balance()
+    elif amount > balance:
+        print("Insufficient funds!")
+    else:
+        print("Invalid withdrawal amount!")
+
+def atm():
+    while True:
+        ask = input("what do you want to do? ('Deposit', 'Withdraw', 'check_balance' or 'exit'): ").lower()
+        if ask == "exit":
+            print("Thanks for using ATM, GOODBYE!")
+            break
+        if ask == "check_balance":
+            check_balance()
+        elif ask == "deposit":
+            amt = float(input("How much amount do you want to deposit: "))
+            deposit(amt)
+        elif ask == "withdraw":
+            amt = float(input("How much amount do you want to withdraw: "))
+            withdraw(amt)
+        else:
+            print("Invalid choice!")
+
+atm()
