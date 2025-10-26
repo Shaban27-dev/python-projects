@@ -16,6 +16,7 @@ A basic calculator that:
 
 Concepts used: Conditional statements, user input, type casting
 
+
 🏝️ Treasure Island (Tkinter GUI Game). This game is not made by me, although i 've made a game similar to this but without tkinter.
 
 * A fun text-based adventure game built using Tkinter (GUI library).
@@ -28,6 +29,7 @@ Concepts used: Conditional statements, user input, type casting
 
 Concepts used: GUI programming with Tkinter, functions, event handling
 
+
 🔐 Day 2 — Password Strength Checker
 
 * A simple password checker that:
@@ -37,6 +39,7 @@ Concepts used: GUI programming with Tkinter, functions, event handling
 * Prints whether the password is strong or weak
 
 Concepts used: Strings, conditionals, input validation
+
 
 🎯 Day 3 — Number Guessing Game
 
@@ -51,3 +54,16 @@ A random number guessing game where:
 * Provides hints and keeps track of best and worst scores
 
 Concepts used: Loops, random module, conditional logic, functions.
+
+
+🏦 Day 4 — Simple ATM Simulator
+
+A command-line ATM simulation program that:
+
+Allows users to Deposit, Withdraw, and Check Balance
+
+Handles insufficient balance and invalid input cases gracefully
+
+Mimics real ATM operations in a simple, text-based format
+
+Concepts used: Loops, conditionals, variables, user-defined functions
