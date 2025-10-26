@@ -85,5 +85,37 @@ print(fact)"""
 
 #          DAY-4
 #1 Write a function to check whether the number is prime or not.
-
+def is_prime(n):
+    if n <= 1:
+        return False
+    if n <= 3:
+        return True
+    if n % 2 == 0 or n % 3 == 0:
+        return False
+    
+    i = 5
+    while i * i <= n:
+        if n % i == 0 or n % (i + 2) == 0:
+            return False
+        i += 6
+        return True
+    
+print(is_prime(107))
+print(is_prime(25))
+print(is_prime(35))
+    
 #2 Write a function to reverse a string (without slicing.)
+"""def reverse_string(s):
+    return ''.join(reversed(s))
+
+print(reverse_string("hello"))"""
+
+"""def reverse_string(s):
+    reversed_string = ""
+    index = len(s) - 1
+    while index >= 0:
+        reversed_string += s[index]
+        index -= 1
+    return reversed_string
+
+print(reverse_string("shaban"))""" 
