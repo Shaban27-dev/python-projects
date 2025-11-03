@@ -1,6 +1,6 @@
 #          DAY_1
 # Write a program to make a simple calculator(take two numbers + operator, print result).
-"""a = int(input("Enter first num: "))
+a = int(input("Enter first num: "))
 c = input("Choose one from these('+', '-', '*', '/'): ")
 b = int(input("Enter second num: "))
 
@@ -16,10 +16,10 @@ elif c == "/":
     else:
         print("Error: Division by 0!")
 else:
-    print("Invalid input!")"""
+    print("Invalid input!") 
 
 # Treasure game using tkinter (copilot). This code is not written by me.
-"""import tkinter as tk
+import tkinter as tk
 from tkinter import messagebox
 
 def start_game():
@@ -73,21 +73,21 @@ button_right = tk.Button(root, text="", width=15)
 start_button = tk.Button(root, text="Start Game", command=start_game)
 start_button.pack(pady=10)
 
-root.mainloop()"""
+root.mainloop()
 
 
 #          DAY_2
 # Write a program for Password Strength Checker (if length < 8 → weak, else strong).
-"""password = input("Enter password: ")
+password = input("Enter password: ")
 
 if len(password) >= 8:
     print("Strong password!")
 else:
-    print("Weak password!")"""
+    print("Weak password!")
 
 #          DAY_3
 # Write a code for number guessing game (computer picks random number, user guesses)
-"""import random
+import random
 
 def num_guessing(attempt, max_num):
     computer_choice = random.randint(0, max_num)
@@ -155,7 +155,7 @@ while True:
     play_again = input("Do you want to play again? (YES/NO): ").lower()
     if play_again != "yes":
         print("Thanks for playing!")
-        break"""
+        break
 
 
 #          DAY_4
@@ -202,3 +202,66 @@ def atm():
             print("Invalid choice!")
 
 atm()
+
+
+#          DAY_5
+# To-Do List program (add, remove, view tasks).
+# tasks = []
+
+# def display_menu():
+#     print("\n--- To-Do List Menu ---")
+#     print("1. Add Task")
+#     print("2. Remove Task")
+#     print("3. View Tasks")
+#     print("4. Exit")
+
+# def add_task():
+#     task = input("Enter the task: ")
+#     tasks.append({"task": task})
+#     print(f"✅ Task '{task}' added successfully!")
+
+# def remove_task():
+#     if len(tasks) == 0:
+#         print("⚠️ No tasks to remove!")
+#         return
+
+#     print("\nYour tasks:")
+#     for i, task in enumerate(tasks, start=1):
+#         print(f"{i}. {task['task']}")
+
+#     try:
+#         num = int(input("Enter task number to remove: "))
+#         if 1 <= num <= len(tasks):
+#             removed_task = tasks.pop(num - 1)
+#             print(f"🗑️ Task '{removed_task['task']}' removed successfully.")
+#         else:
+#             print("⚠️ Please enter a valid task number!")
+#     except ValueError:
+#         print("❌ Please enter a valid number.")
+
+# def view_tasks():
+#     if len(tasks) == 0:
+#         print("📭 No tasks added yet!")
+#     else:
+#         print("\n📝 Your To-Do List:")
+#         for i, task in enumerate(tasks, start=1):
+#             print(f"{i}. {task['task']}")
+
+# def main():
+#     while True:
+#         display_menu()
+#         choice = input("Enter your choice (1-4): ")
+
+#         if choice == "1":
+#             add_task()
+#         elif choice == "2":
+#             remove_task()
+#         elif choice == "3":
+#             view_tasks()
+#         elif choice == "4":
+#             print("👋 Thanks for using the To-Do List. Goodbye!")
+#             break
+#         else:
+#             print("❌ Invalid choice! Please try again.")
+
+# main()
