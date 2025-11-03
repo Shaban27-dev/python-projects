@@ -83,5 +83,5 @@ Concepts used: Lists, dictionaries, functions, loops, error handling
 
 👨‍💻 Author
 
-SHABAN ALAM
+SHABAN ALAM | 
 Learning Python and building small projects to sharpen logic and problem-solving skills.
