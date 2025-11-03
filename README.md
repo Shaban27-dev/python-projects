@@ -1,69 +1,87 @@
 🐍 Mini Python Projects
 
-This repository contains a set of small Python programs I’ve built while learning the language.
-Each mini-project focuses on a basic programming concept — from simple input/output to Number guessing game.
+A collection of beginner-friendly Python programs created while learning the language.
+Each mini-project focuses on building logic and understanding core programming concepts in a fun and simple way.
 
 📘 Project List
 🧮 Day 1 — Simple Calculator
 
 A basic calculator that:
 
-* Takes two numbers and an operator as input (+, -, *, /)
+Takes two numbers and an operator as input (+, -, *, /)
 
-* Performs the calculation and prints the result
+Performs the operation and displays the result
 
-* Includes error handling for invalid inputs and division by zero
+Handles invalid inputs and division by zero
 
-Concepts used: Conditional statements, user input, type casting
+Concepts used: Variables, input/output, conditionals, error handling
 
+🏝️ Treasure Island (Tkinter GUI Game)
 
-🏝️ Treasure Island (Tkinter GUI Game). This game is not made by me, although i 've made a game similar to this but without tkinter.
+Note: This project is inspired by a similar game. I created a text-based version without Tkinter as well.
 
-* A fun text-based adventure game built using Tkinter (GUI library).
+A fun GUI-based adventure game using Tkinter
 
-* Navigate through choices to find the treasure
+Click-based choices to navigate and find the treasure
 
-* Wrong choices end the game with fun messages
+Wrong decisions end the game with entertaining messages
 
-* Demonstrates the use of buttons, labels, and message boxes
-
-Concepts used: GUI programming with Tkinter, functions, event handling
-
+Concepts used: Tkinter GUI, functions, event handling, message boxes
 
 🔐 Day 2 — Password Strength Checker
 
-* A simple password checker that:
+Simple program that:
 
-* Evaluates password strength based on its length
+Checks the length of a password
 
-* Prints whether the password is strong or weak
+Tells whether the password is Strong or Weak
 
 Concepts used: Strings, conditionals, input validation
-
 
 🎯 Day 3 — Number Guessing Game
 
 A random number guessing game where:
 
-* The computer picks a random number
+The computer selects a random number
 
-* The player tries to guess within limited attempts
+Player guesses within limited attempts
 
-* Includes Easy, Medium, and Hard difficulty modes
+Includes Easy, Medium, and Hard modes
 
-* Provides hints and keeps track of best and worst scores
+Gives hints and stores best/worst attempt counts
 
-Concepts used: Loops, random module, conditional logic, functions.
-
+Concepts used: Loops, functions, random module, conditionals
 
 🏦 Day 4 — Simple ATM Simulator
 
-A command-line ATM simulation program that:
+A command-line ATM program that allows users to:
 
-Allows users to Deposit, Withdraw, and Check Balance
+Deposit money
 
-Handles insufficient balance and invalid input cases gracefully
+Withdraw money
 
-Mimics real ATM operations in a simple, text-based format
+Check account balance
 
-Concepts used: Loops, conditionals, variables, user-defined functions
+Also handles insufficient balance and invalid inputs.
+
+Concepts used: Loops, conditionals, functions, variables
+
+✅ Day 5 — To-Do List Program
+
+A simple task management program where users can:
+
+➕ Add new tasks
+
+🗑️ Remove existing tasks
+
+📋 View all tasks
+
+🚪 Exit the program
+
+Concepts used: Lists, dictionaries, functions, loops, error handling
+
+
+👨‍💻 Author
+
+SHABAN ALAM
+Learning Python and building small projects to sharpen logic and problem-solving skills.
