@@ -80,6 +80,22 @@ A simple task management program where users can:
 
 Concepts used: Lists, dictionaries, functions, loops, error handling
 
+🔤 Day 6 — Hangman Game
+
+A classic word-guessing game where the player must guess a hidden word letter by letter before running out of lives.
+
+The game randomly selects a word from a word list
+
+Correct guesses reveal letters in the word
+
+Wrong guesses reduce the player's 6 lives
+
+ASCII Hangman graphics update after each incorrect guess
+
+Prevents duplicate guesses and ends with WIN or LOSE message
+
+Concepts used: Loops, lists, strings, random module, conditionals, user input handling
+
 
 👨‍💻 Author
 
