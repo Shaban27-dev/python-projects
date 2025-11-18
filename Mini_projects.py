@@ -1,5 +1,5 @@
 #          DAY_1
-# Write a program to make a simple calculator(take two numbers + operator, print result).
+# Simple Calculator(take two numbers + operator, print result).
 a = int(input("Enter first num: "))
 c = input("Choose one from these('+', '-', '*', '/'): ")
 b = int(input("Enter second num: "))
@@ -18,7 +18,7 @@ elif c == "/":
 else:
     print("Invalid input!") 
 
-# Treasure game using tkinter (copilot). This code is not written by me.
+# Treasure Game using tkinter (copilot). This code is not written by me.
 import tkinter as tk
 from tkinter import messagebox
 
@@ -77,7 +77,7 @@ root.mainloop()
 
 
 #          DAY_2
-# Write a program for Password Strength Checker (if length < 8 → weak, else strong).
+# Password Strength Checker (if length < 8 → weak, else strong).
 password = input("Enter password: ")
 
 if len(password) >= 8:
@@ -86,7 +86,7 @@ else:
     print("Weak password!")
 
 #          DAY_3
-# Write a code for number guessing game (computer picks random number, user guesses)
+# Number Guessing Game (computer picks random number, user guesses)
 import random
 
 def num_guessing(attempt, max_num):
