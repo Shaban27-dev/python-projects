@@ -86,7 +86,7 @@ else:
     print("Weak password!")
 
 #          DAY_3
-# Number Guessing Game (computer picks random number, user guesses)
+# Number Guessing Game (computer picks random number, user guesses).
 import random
 
 def num_guessing(attempt, max_num):
@@ -159,7 +159,7 @@ while True:
 
 
 #          DAY_4
-# Simple ATM simulator(Deposit, Withdraw, Balance)
+# Simple ATM simulator(Deposit, Withdraw, Balance).
 balance = 10000
 
 def check_balance():
@@ -389,3 +389,51 @@ while not game_over:
         print("***************YOU WIN!***************")
 
     print(stages[lives])
+
+
+#          DAY-6
+# Contact Book (store name, phone, email).
+def Shaban():
+    info = {
+        "name": "Shaban",
+        "phone": "8394829812",
+        "email": "alamshaban92@gmail.com",
+    }
+    return info
+
+def Sarib():
+    info = {
+        "name": "Ssrib",
+        "phone": "8394893021",
+        "email": "sarib29@gmail.com",
+    }
+    return info
+
+def James():
+    info = {
+        "name": "James",
+        "phone": "9203129812",
+        "email": "jamesclear40@gmail.com",
+    }
+    return info
+
+def Bob():
+    info = {
+        "name": "Bob",
+        "phone": "8399021812",
+        "email": "bobshane853@gmail.com",
+    }
+    return info
+
+people = {
+    "shaban": Shaban,
+    "sarib": Sarib,
+    "james": James,
+    "bob": Bob,
+}
+
+ask = input("Who do you want to know about? 'Shaban', 'Sarib', 'James', or 'Bob': ").lower()
+if ask in people:
+    print(people[ask]())
+else:
+    print("Sorry, I don't have info of that person.")

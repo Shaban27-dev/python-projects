@@ -96,6 +96,20 @@ Prevents duplicate guesses and ends with WIN or LOSE message
 
 Concepts used: Loops, lists, strings, random module, conditionals, user input handling
 
+📇 Day 7 — Contact Information Lookup
+
+A simple Python program that stores personal information (name, phone number, and email) for multiple people and allows the user to retrieve details by entering a name.
+
+Prompts the user to enter a person’s name
+
+Displays the stored contact information if the name exists
+
+Shows an error message if the name is not found
+
+Uses functions to organize and return information for each person
+
+Concepts used: Dictionaries, functions, user input, conditionals, data retrieval
+
 
 👨‍💻 Author
 
