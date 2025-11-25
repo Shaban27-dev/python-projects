@@ -110,6 +110,29 @@ Uses functions to organize and return information for each person
 
 Concepts used: Dictionaries, functions, user input, conditionals, data retrieval
 
+⚖️ Day 8 — Unit Converter
+
+A simple Python program that converts values between different units.
+The user selects a conversion type and enters a numeric value, and the program calculates and displays the converted result.
+
+Lists all available unit conversions
+
+Accepts user input for conversion type and numeric value
+
+Performs the correct calculation using predefined functions
+
+Displays the final converted result
+
+Supported conversions:
+
+Conversion Type	Function
+kg → pounds	kg_to_pounds
+pounds → kg	pounds_to_kg
+cm → inches	cm_to_inches
+inches → cm	inches_to_cm
+
+Concepts used: Functions, dictionaries, loops, mapping functions to keys, user input, conditionals
+
 
 👨‍💻 Author
 
