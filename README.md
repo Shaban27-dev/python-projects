@@ -133,6 +133,21 @@ inches → cm	inches_to_cm
 
 Concepts used: Functions, dictionaries, loops, mapping functions to keys, user input, conditionals
 
+💳 Day 9 — Bank Account Simulator (Deposit & Withdraw)
+
+A simple command-line banking program built using Object-Oriented Programming (OOP) in Python.
+The user can deposit or withdraw money from a bank account, and the program updates the balance instantly.
+
+🧾 Features
+
+✔️ Create an account with a starting balance and an account number
+✔️ Deposit money into the account
+✔️ Withdraw money (with insufficient balance protection)
+✔️ Display updated account balance after each transaction
+✔️ Validates incorrect deposit/withdraw amounts
+
+Concepts used: 🧠 OOP, 🏷️ classes & objects, 🔁 methods, 🔐 encapsulation, 🔍 conditionals, ⌨️ user input handling.
+
 
 👨‍💻 Author
 
