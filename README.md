@@ -4,6 +4,8 @@ A collection of beginner-friendly Python programs created while learning the lan
 Each mini-project focuses on building logic and core programming concepts 🎯 — in a fun and interactive way 🚀.
 
 📘 Project List
+
+
 🧮➗🔢 Day 1 — Simple Calculator
 
 A basic calculator that 💡:
@@ -15,6 +17,7 @@ A basic calculator that 💡:
 ❗ Handles invalid inputs and division by zero
 
 Concepts used: 📌 Variables 🔤 input/output 🔁 conditionals 🧯 error handling
+
 
 🏝️🗺️⚓ Treasure Island (Tkinter GUI Game)
 
@@ -28,6 +31,7 @@ Inspired by an existing game. I also made a completely text-based version.
 
 Concepts used: 🖼️ Tkinter GUI 🔧 functions 🛎️ event handling 💬 message boxes
 
+
 🔐🛡️💬 Day 2 — Password Strength Checker
 
 🔍 Checks password length
@@ -35,6 +39,7 @@ Concepts used: 🖼️ Tkinter GUI 🔧 functions 🛎️ event handling 💬 me
 💪 Tells whether the password is Strong or Weak
 
 Concepts used: 🔤 Strings 🔁 conditionals 🧹 input validation
+
 
 🎯🤖🔢 Day 3 — Number Guessing Game
 
@@ -48,6 +53,7 @@ Concepts used: 🔤 Strings 🔁 conditionals 🧹 input validation
 
 Concepts used: 🔁 Loops 🧮 functions 🎲 random module 🔍 conditionals
 
+
 🏦💰🏧 Day 4 — Simple ATM Simulator
 
 💳 Deposit money
@@ -60,6 +66,7 @@ Concepts used: 🔁 Loops 🧮 functions 🎲 random module 🔍 conditionals
 
 Concepts used: 🔁 loops 🔍 conditionals 🔧 functions 💾 variables
 
+
 📋🗂️📝 Day 5 — To-Do List Program
 
 ➕ Add tasks
@@ -71,6 +78,7 @@ Concepts used: 🔁 loops 🔍 conditionals 🔧 functions 💾 variables
 🚪 Exit program
 
 Concepts used: 🧺 lists 🧾 dictionaries 🔁 loops 🔧 functions 🧯 error handling
+
 
 🔤⚔️👻 Day 6 — Hangman Game
 
@@ -86,6 +94,7 @@ Concepts used: 🧺 lists 🧾 dictionaries 🔁 loops 🔧 functions 🧯 error
 
 Concepts used: 🔁 loops 🧺 lists 🔤 strings 🎲 random module 🔍 conditionals ⌨️ user input
 
+
 📇☎️📧 Day 7 — Contact Information Lookup
 
 👤 Stores multiple people's info (name, phone, email)
@@ -95,6 +104,7 @@ Concepts used: 🔁 loops 🧺 lists 🔤 strings 🎲 random module 🔍 condit
 ⚠️ Shows error if record not found
 
 Concepts used: 🧾 dictionaries 🔧 functions ⌨️ user input 🔍 conditionals 🔎 data retrieval
+
 
 ⚖️📏📐 Day 8 — Unit Converter
 
@@ -108,6 +118,7 @@ Concepts used: 🧾 dictionaries 🔧 functions ⌨️ user input 🔍 condition
 kg ↔ pounds ⚖️ / cm ↔ inches 📏
 
 Concepts used: 🔧 functions 🧾 dictionaries 🔁 loops 🔗 mapping functions to keys ⌨️ user input 🔍 conditionals
+
 
 💳🏦💸 Day 9 — Bank Account Simulator (Deposit & Withdraw)
 
@@ -123,6 +134,7 @@ Concepts used: 🔧 functions 🧾 dictionaries 🔁 loops 🔗 mapping function
 
 Concepts used: 🧠 OOP 🧩 classes & objects 🔁 methods 🔐 encapsulation 🔍 conditionals ⌨️ user input
 
+
 🧠🎉📚 Day 10 — Quiz Game
 
 ❓ Asks 5 general-knowledge questions
@@ -136,6 +148,30 @@ Concepts used: 🧠 OOP 🧩 classes & objects 🔁 methods 🔐 encapsulation �
 🎉 Shows results at the end
 
 Concepts used: 🧾 dictionaries 🔁 loops 🔠 string comparison ⌨️ input handling 🧮 score calculation 🖨️ formatted printing
+
+
+📚✨ Day 11 — Library Management System
+
+A simple and interactive command-line Library Management System that allows users to manage books easily.
+You can add books, remove them, check availability, or view the entire library — all through a clean menu-based interface 🎮.
+
+🧾 Features
+
+➕ Add Book
+
+❌ Remove Book
+
+🔍 Check Book Availability
+
+📖 View All Books
+
+🚪 Exit
+
+
+🧠 Concepts Used
+
+Concepts used: 🧾 dictionaries, 📚 lists, 🔁 loops, 🧩 functions, 🔍 string comparison, ⚙️ menu-driven programs, ⌨️ user input handling.
+
 
 
 👨‍💻 Author
