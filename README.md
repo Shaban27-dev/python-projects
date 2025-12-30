@@ -194,8 +194,29 @@ It also displays a formatted report card table and shows the class average 🎓.
 Concepts used: 🗂️ file handling, 🔢 data parsing, 🧮 average calculation, 🅰️ grade assignment, 🔁 loops, 🧾 string formatting, ⚠️ exception handling.
 
 
+🎓✨ Day 13 — Student Management System (OOP)
+
+A command-line Student Management System built using Object-Oriented Programming.
+It allows users to add, remove, update, and view student records through a simple menu-driven interface 🧑‍🎓.
+
+🧾 Features
+
+➕ Add student (name, roll number, marks)
+
+❌ Remove student using roll number
+
+✏️ Update student marks
+
+📋 View all student details
+
+🚪 Exit the system
+
+🧠 Concepts Used
+
+Concepts used: 🧠 OOP, 🧩 classes & objects, 🔁 loops, 🧮 methods, 🔍 conditionals, 📋 lists, ⌨️ user input handling.
+
 
 👨‍💻 Author
 
-SHABAN ALAM
+SHABAN ALAM | 
 Learning Python and building mini-projects to sharpen logic 🧠, creativity 🎨, and problem-solving skills ⚡.
