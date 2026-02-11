@@ -46,6 +46,8 @@ Day 19 — File Organizer Script (Automation)
 
 Day 20 — Student Grade Analyzer (Pandas)
 
+Day 21 - NATO Alphabet converter
+
 Each project is stored in its own folder with a dedicated README.md explaining features and concepts used.
 
 
