@@ -1,445 +1,93 @@
-🐍✨ Mini Python Projects
+🐍 Python Mini Projects (Day 1–20)
 
-A collection of beginner-friendly Python programs created while learning the language.
-Each mini-project focuses on building logic and core programming concepts 🎯 — in a fun and interactive way 🚀.
+A curated collection of Python mini projects built while learning core programming concepts, Object-Oriented Programming (OOP), automation, and basic data analysis.
+
+Each project focuses on hands-on problem solving, clean logic, and gradual skill progression — from beginner fundamentals to more structured and modular programs.
 
 📘 Project List
 
+Day 01 — Simple Calculator
 
-🧮➗🔢 Day 1 — Simple Calculator
+Day 02 — Password Strength Checker
 
-A basic calculator that 💡:
+Day 03 — Number Guessing Game
 
-🔢 Takes two numbers and an operator (+, -, *, /)
+Day 04 — ATM Simulator
 
-🧠 Performs the operation and prints the result
+Day 05 — To-Do List Program
 
-❗ Handles invalid inputs and division by zero
+Day 06 — Hangman Game
 
-Concepts used: 📌 Variables 🔤 input/output 🔁 conditionals 🧯 error handling
+Day 07 — Contact Information Lookup
 
+Day 08 — Unit Converter
 
-🏝️🗺️⚓ Treasure Island (Tkinter GUI Game)
+Day 09 — Bank Account Simulator (OOP)
 
-Inspired by an existing game. I also made a completely text-based version.
+Day 10 — Quiz Game
 
-🎮 GUI adventure using Tkinter
+Day 11 — Library Management System
 
-🖱️ Click choices to navigate
+Day 12 — Student Report Card Generator
 
-💀 Wrong choices end the game with funny messages
+Day 13 — Student Management System (OOP)
 
-Concepts used: 🖼️ Tkinter GUI 🔧 functions 🛎️ event handling 💬 message boxes
+Day 14 — MCQ Quiz App
 
+Day 15 — Turtle Drawing App
 
-🔐🛡️💬 Day 2 — Password Strength Checker
+Day 16 — Smart Calculator (Dictionary-Based)
 
-🔍 Checks password length
+Day 17 — Modified Snake Game
 
-💪 Tells whether the password is Strong or Weak
+Day 18 — Mini Game Framework (OOP)
 
-Concepts used: 🔤 Strings 🔁 conditionals 🧹 input validation
+Day 19 — File Organizer Script (Automation)
 
+Day 20 — Student Grade Analyzer (Pandas)
 
-🎯🤖🔢 Day 3 — Number Guessing Game
+Each project is stored in its own folder with a dedicated README.md explaining features and concepts used.
 
-🎲 Computer picks a random number
 
-🧍 Player guesses with limited attempts
 
-📊 Difficulty modes (Easy / Medium / Hard)
+🧠 Skills & Concepts Practiced
 
-💬 Hints + best/worst score tracking
+Python fundamentals (variables, loops, conditionals)
 
-Concepts used: 🔁 Loops 🧮 functions 🎲 random module 🔍 conditionals
+Object-Oriented Programming (classes, objects, inheritance)
 
+File handling (CSV, text files)
 
-🏦💰🏧 Day 4 — Simple ATM Simulator
+Automation scripting (os, shutil)
 
-💳 Deposit money
+Data analysis with Pandas
 
-💸 Withdraw money
+CLI applications & menu-driven programs
 
-📟 Check balance
+Game logic & interactive programs
 
-🛡️ Protects against insufficient funds and invalid inputs
+Clean code structure & modular design
 
-Concepts used: 🔁 loops 🔍 conditionals 🔧 functions 💾 variables
+🛠️ Tools & Libraries
 
+Python
 
-📋🗂️📝 Day 5 — To-Do List Program
+Pandas
 
-➕ Add tasks
+Turtle
 
-🗑️ Remove tasks
+OS & Shutil
 
-👀 View tasks
+Random & Time
 
-🚪 Exit program
 
-Concepts used: 🧺 lists 🧾 dictionaries 🔁 loops 🔧 functions 🧯 error handling
+🎯 Purpose of This Repository
 
-
-🔤⚔️👻 Day 6 — Hangman Game
-
-🎯 Guess the word letter by letter
-
-📌 6 lives total
-
-🖼️ ASCII Hangman graphics on each incorrect guess
-
-🚫 Prevents duplicate guesses
-
-🏆 WIN / 💀 LOSE ending
-
-Concepts used: 🔁 loops 🧺 lists 🔤 strings 🎲 random module 🔍 conditionals ⌨️ user input
-
-
-📇☎️📧 Day 7 — Contact Information Lookup
-
-👤 Stores multiple people's info (name, phone, email)
-
-🔍 User enters a name to retrieve data
-
-⚠️ Shows error if record not found
-
-Concepts used: 🧾 dictionaries 🔧 functions ⌨️ user input 🔍 conditionals 🔎 data retrieval
-
-
-⚖️📏📐 Day 8 — Unit Converter
-
-🧾 Lists supported conversions
-
-🔁 Accepts conversion type and value
-
-🔄 Performs the correct calculation and prints result
-
-📌 Supported conversions:
-kg ↔ pounds ⚖️ / cm ↔ inches 📏
-
-Concepts used: 🔧 functions 🧾 dictionaries 🔁 loops 🔗 mapping functions to keys ⌨️ user input 🔍 conditionals
-
-
-💳🏦💸 Day 9 — Bank Account Simulator (Deposit & Withdraw)
-
-🏧 Create an account
-
-💰 Deposit money
-
-💸 Withdraw money safely
-
-📟 Show updated balance
-
-❗ Validate incorrect amounts
-
-Concepts used: 🧠 OOP 🧩 classes & objects 🔁 methods 🔐 encapsulation 🔍 conditionals ⌨️ user input
-
-
-🧠🎉📚 Day 10 — Quiz Game
-
-❓ Asks 5 general-knowledge questions
-
-🔍 Checks answers
-
-💬 Feedback (Correct / Wrong)
-
-🧮 Calculates score + percentage
-
-🎉 Shows results at the end
-
-Concepts used: 🧾 dictionaries 🔁 loops 🔠 string comparison ⌨️ input handling 🧮 score calculation 🖨️ formatted printing
-
-
-📚✨ Day 11 — Library Management System
-
-A simple and interactive command-line Library Management System that allows users to manage books easily.
-You can add books, remove them, check availability, or view the entire library — all through a clean menu-based interface 🎮.
-
-🧾 Features
-
-➕ Add Book
-
-❌ Remove Book
-
-🔍 Check Book Availability
-
-📖 View All Books
-
-🚪 Exit
-
-🧠 Concepts Used
-
-Concepts used: 🧾 dictionaries, 📚 lists, 🔁 loops, 🧩 functions, 🔍 string comparison, ⚙️ menu-driven programs, ⌨️ user input handling.
-
-
-📊✨ Day 12 — Student Report Card Generator
-
-A Python program that reads student scores from a CSV file and calculates each student’s average and grade.
-It also displays a formatted report card table and shows the class average 🎓.
-
-🧾 Features
-
-📂 Reads student data from a CSV file
-
-🧮 Calculates average score for each student
-
-🅰️ Assigns grades (A–F)
-
-📊 Displays a clean report card table
-
-🏫 Shows total students and class average
-
-🧠 Concepts Used
-
-Concepts used: 🗂️ file handling, 🔢 data parsing, 🧮 average calculation, 🅰️ grade assignment, 🔁 loops, 🧾 string formatting, ⚠️ exception handling.
-
-
-🎓✨ Day 13 — Student Management System (OOP)
-
-A command-line Student Management System built using Object-Oriented Programming.
-It allows users to add, remove, update, and view student records through a simple menu-driven interface 🧑‍🎓.
-
-🧾 Features
-
-➕ Add student (name, roll number, marks)
-
-❌ Remove student using roll number
-
-✏️ Update student marks
-
-📋 View all student details
-
-🚪 Exit the system
-
-🧠 Concepts Used
-
-Concepts used: 🧠 OOP, 🧩 classes & objects, 🔁 loops, 🧮 methods, 🔍 conditionals, 📋 lists, ⌨️ user input handling.
-
-
-🧠🎯 Day 14 — MCQ Quiz App (OOP)
-
-A command-line multiple-choice quiz application built using Object-Oriented Programming.
-The app presents shuffled questions, tracks the user’s score, and allows replaying the quiz 🎮.
-
-🧾 Features
-
-❓ Multiple-choice questions (A/B/C/D)
-
-🔀 Randomized question order
-
-📊 Score tracking after each question
-
-🔁 Replay option without restarting the program
-
-🎯 Final score and percentage display
-
-🧠 Concepts Used
-
-Concepts used: 🧠 OOP, 🧩 classes & objects, 📚 lists & dictionaries, 🔁 loops, 🔀 random module, 🔍 conditionals, ⌨️ user input handling.
-
-
-🎨🐢 Day 15 — Simple Drawing App (Turtle)
-
-A fun interactive drawing application made using Python Turtle 🐢.
-Control the turtle with your keyboard to draw, change colors, adjust brush size, and clear/reset the canvas 🎮✨.
-
-🧾 Features
-
-⬆️⬇️⬅️➡️ Move and turn turtle using arrow keys
-
-✍️ Pen up / pen down controls (draw or move freely)
-
-🎨 Change colors (Red/Green/Blue)
-
-🌈 Random color mode
-
-➕➖ Increase or decrease brush size
-
-🧽 Clear screen and reset turtle position
-
-🧠 Concepts Used
-
-Concepts used: 🐢 turtle module, ⌨️ keyboard event handling, 🔁 functions, 🔍 conditionals, 🎨 RGB colors, 🔀 random module, 🧩 interactive programs.
-
-✔️ Controls
-
-⬆️ Up Arrow → Move forward
-
-⬇️ Down Arrow → Move backward
-
-⬅️ Left Arrow → Turn left
-
-➡️ Right Arrow → Turn right
-
-u → Pen up ✋
-
-p → Pen down ✍️
-
-r / g / b → Change color
-
-x → Random color 🌈
-
-+ / - → Brush size
-
-c → Clear screen 🧽
-
-space → Reset position 🔄
-
-
-🧮⚡ Day 16 — Smart Calculator (Dictionary Based)
-
-A smart command-line calculator built in Python that supports multiple operations using a dictionary-based system.
-It allows users to continue calculations with the previous result, start a new calculation, or exit anytime 🔁✨.
-
-🧾 Features
-
-➕ Addition (+)
-
-➖ Subtraction (-)
-
-✖️ Multiplication (*)
-
-➗ Division (/) with division-by-zero protection
-
-🔋 Power (**)
-
-🧩 Modulo (%)
-
-📉 Floor Division (//)
-
-🔁 Continue using the current result
-
-🆕 Start a new calculation
-
-🚪 Exit option
-
-🧠 Concepts Used
-
-Concepts used: 🧾 dictionary mapping, 🔧 functions, 🔁 loops, 🔍 conditionals, ➗ error handling, ⌨️ user input handling, 🧮 mathematical operations.
-
-
-🐍🎮 Day 17 — Modified Snake Game (Speed + Colors + Pause)
-
-A modified version of the classic Snake Game built using Python Turtle 🐢.
-This version includes extra features like speed control, snake/background color changes, and a pause/play option for better gameplay ⚡🎨.
-
-🧾 Features
-
-⬆️⬇️⬅️➡️ Snake movement using arrow keys
-
-🎨 Change snake color: 🔴 Red / 🟢 Green / 🔵 Blue
-
-🌈 Random snake color mode
-
-🖤 Change background color (1/2/3 keys)
-
-⚡ Speed control: ➕ speed up / ➖ speed down
-
-⏸️ Pause / Resume gameplay using p
-
-💥 Wall collision detection (Game Over)
-
-🧠 Concepts Used
-
-Concepts used: 🐢 turtle module, ⌨️ keyboard event handling, 🔁 loops, 🧩 functions, 🔀 random module, 🎨 RGB colors, ⏱️ time module (delay control), 🔍 conditionals (collision + game logic).
-
-🎮 Controls
-
-⬆️⬇️⬅️➡️ → Move snake
-
-r / g / b → Snake color 🔴🟢🔵
-
-x → Random snake color 🌈
-
-1 / 2 / 3 → Background colors 🎨
-
-+ / - → Speed up / Speed down ⚡
-
-p → Pause / Resume ⏸️▶️
-
-
-🎮🕹️ Day 18 — Mini Game Framework (OOP)
-
-A fun Mini Game Framework built using Object-Oriented Programming in Python.
-This project includes a base Game class and multiple child games that can be played from a launcher menu 🎯✨.
-
-🧾 Features
-
-📋 Menu-based game launcher system
-
-🧩 Base Game class framework (score + menu + end screen)
-
-🎯 Includes 3 mini games:
-
-🔢 Guess The Number
-
-🧠 Quiz Game (random 5 questions)
-
-✊✋✌️ Rock Paper Scissors
-
-📊 Score tracking system
-
-🔁 Uses inheritance and reusable code structure
-
-🧠 Concepts Used
-
-Concepts used: 🧠 OOP, 🧩 inheritance, 🏛️ base & child classes, 📚 lists & dictionaries, 🔁 loops, 🔀 random module, 🔍 conditionals, ⌨️ user input handling.
-
-🎮 Games Included
-
-🔢 Guess The Number
-
-Computer selects a random number (0–20)
-
-Player keeps guessing until correct ✅
-
-🧠 Quiz Game
-
-Randomly selects 5 questions from a question bank
-
-Tracks score and shows percentage 📊
-
-✊✋✌️ Rock Paper Scissors
-
-Player vs computer
-
-First to 5 wins becomes champion 🏆
-
-
-🗂️⚙️ Day 19 — File Organizer Script (Automation)
-
-A Python automation script that scans a folder and automatically organizes files into categorized subfolders based on their file extensions 📁✨.
-
-🧾 Features
-
-🔍 Scans the selected folder for files
-
-📂 Automatically creates category folders (Text, Images, Music, Videos, PDF)
-
-📥 Moves files into their respective folders
-
-🚫 Skips existing folders safely
-
-📊 Displays how many files were organized
-
-🧠 Concepts Used
-
-Concepts used: 🗂️ file system automation, 📁 os module, 🚚 shutil module, 🔁 loops, 🔍 file extension handling, ⚙️ scripting for productivity.
-
-📌 Supported File Categories
-
-.txt → Text
-
-.jpg, .png → Images
-
-.mp3 → Music
-
-.mp4 → Videos
-
-.pdf → PDF
+This repository represents my learning journey in Python.
+The goal is to build strong fundamentals, improve problem-solving skills, and gradually move toward real-world automation, data handling, and software development projects.
 
 
 👨‍💻 Author
 
-SHABAN ALAM | 
-Learning Python and building mini-projects to sharpen logic 🧠, creativity 🎨, and problem-solving skills ⚡.
+Shaban Alam
+Python Learner | Building projects to strengthen logic, consistency, and practical coding skills.
