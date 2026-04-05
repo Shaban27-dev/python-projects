@@ -46,7 +46,13 @@ Day 19 — File Organizer Script (Automation)
 
 Day 20 — Student Grade Analyzer (Pandas)
 
+<<<<<<< HEAD
 Day 21 - NATO Alphabet converter
+=======
+Day 21 — NATO Alphabet converter
+
+Day 22 — Pomodoro Timer
+>>>>>>> c6e165d (Added Day 24 — Pomodoro Timer GUI using Tkinter with work/break cycles, countdown logic, and session tracking)
 
 Each project is stored in its own folder with a dedicated README.md explaining features and concepts used.
 
