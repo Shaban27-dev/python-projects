@@ -1,4 +1,4 @@
-⏳🍅 Day 24 — Pomodoro Timer (Tkinter GUI)
+⏳🍅 Day 22 — Pomodoro Timer (Tkinter GUI)
 
 A GUI-based Pomodoro Timer built using Tkinter that helps manage work and break sessions efficiently using the Pomodoro technique 🎯.
 
