@@ -1,100 +1,83 @@
-🐍 Python Mini Projects (Day 1–20)
+# Python Projects — CLI Tools, Automation Scripts & Data Utilities
 
-A curated collection of Python mini projects built while learning core programming concepts, Object-Oriented Programming (OOP), automation, and basic data analysis.
+A collection of 22 working Python projects covering automation, data analysis,
+OOP-based management systems, and interactive GUI applications.
 
-Each project focuses on hands-on problem solving, clean logic, and gradual skill progression — from beginner fundamentals to more structured and modular programs.
+Each project is self-contained with its own folder and README.
 
-📘 Project List
+📧 shabandev27@gmail.com · Open to freelance Python work
 
-Day 01 — Simple Calculator
+---
 
-Day 02 — Password Strength Checker
+## Automation & File Tools
 
-Day 03 — Number Guessing Game
+| Project | What it does |
+|---|---|
+| **File Organizer** | Scans a directory and sorts files into subfolders by type automatically |
+| **Pomodoro Timer** | Tkinter GUI app with configurable work/break cycles and session tracking |
+| **NATO Alphabet Converter** | Converts any word to its phonetic alphabet equivalent using a Pandas lookup |
+| **To-Do List** | CLI task manager — add, complete, and delete tasks with persistent state |
 
-Day 04 — ATM Simulator
+## Data & Reporting
 
-Day 05 — To-Do List Program
+| Project | What it does |
+|---|---|
+| **Student Grade Analyzer** | Reads student records with Pandas, computes averages, ranks, and pass/fail status |
+| **Report Card Generator** | Produces formatted academic reports from raw grade input |
+| **Unit Converter** | Converts between length, weight, and temperature units with clean menu UI |
 
-Day 06 — Hangman Game
+## Management Systems (OOP)
 
-Day 07 — Contact Information Lookup
+| Project | What it does |
+|---|---|
+| **Library Management System** | Tracks books, handles borrowing and returns, prevents duplicate entries |
+| **Student Management System** | Full CRUD system for student records built with classes and encapsulation |
+| **Bank Account Simulator** | OOP-based account with deposit, withdrawal, and balance validation |
+| **ATM Simulator** | PIN validation, balance checks, and transaction flow with error handling |
+| **Contact Lookup** | Searchable contact directory with add, find, and delete operations |
 
-Day 08 — Unit Converter
+## CLI Tools & Utilities
 
-Day 09 — Bank Account Simulator (OOP)
+| Project | What it does |
+|---|---|
+| **Simple Calculator** | Four-operation calculator with input validation and loop control |
+| **Smart Calculator** | Extended calculator with operation history stored in a dictionary |
+| **Password Strength Checker** | Validates passwords against length, symbols, and character rules |
+| **MCQ Quiz App** | Multiple-choice quiz engine with score tracking and result summary |
+| **Quiz Game** | Timed trivia game with question bank and final score display |
 
-Day 10 — Quiz Game
+## Games & Interactive
 
-Day 11 — Library Management System
+| Project | What it does |
+|---|---|
+| **Number Guessing Game** | Random number game with attempt counter and high/low hints |
+| **Hangman** | Classic word guessing game with ASCII display and lives system |
+| **Snake Game** | Playable snake with collision detection and live score |
+| **Turtle Drawing App** | Geometric pattern generator using Python's Turtle graphics library |
+| **Mini Game Framework** | Reusable OOP base structure — parent class for building Python games |
 
-Day 12 — Student Report Card Generator
-
-Day 13 — Student Management System (OOP)
-
-Day 14 — MCQ Quiz App
-
-Day 15 — Turtle Drawing App
-
-Day 16 — Smart Calculator (Dictionary-Based)
-
-Day 17 — Modified Snake Game
-
-Day 18 — Mini Game Framework (OOP)
-
-Day 19 — File Organizer Script (Automation)
-
-Day 20 — Student Grade Analyzer (Pandas)
-
-Day 21 - NATO Alphabet converter
-
-Day 21 — NATO Alphabet converter
-
-Day 22 — Pomodoro Timer
-
-
-Each project is stored in its own folder with a dedicated README.md explaining features and concepts used.
-
-
-
-🧠 Skills & Concepts Practiced
-
-Python fundamentals (variables, loops, conditionals)
-
-Object-Oriented Programming (classes, objects, inheritance)
-
-File handling (CSV, text files)
-
-Automation scripting (os, shutil)
-
-Data analysis with Pandas
-
-CLI applications & menu-driven programs
-
-Game logic & interactive programs
-
-Clean code structure & modular design
-
-🛠️ Tools & Libraries
-
-Python
-
-Pandas
-
-Turtle
-
-OS & Shutil
-
-Random & Time
+---
 
 
-🎯 Purpose of This Repository
+## Skills demonstrated
 
-This repository represents my learning journey in Python.
-The goal is to build strong fundamentals, improve problem-solving skills, and gradually move toward real-world automation, data handling, and software development projects.
+- Object-oriented design — classes, inheritance, encapsulation
+- File handling — CSV, text files, directory operations
+- Automation scripting — `os`, `shutil`, batch processing
+- Data analysis — Pandas DataFrames, filtering, aggregation
+- GUI development — Tkinter layouts, event loops, timers
+- CLI application design — menus, validation, loops
+- Clean, modular code structure across all projects
 
+---
 
-👨‍💻 Author
+## Available for freelance work
 
-Shaban Alam
-Python Learner | Building projects to strengthen logic, consistency, and practical coding skills.
+If you need a Python script, automation tool, data utility, CLI application,
+or management system — I can build it.
+
+📧 **shabandev27@gmail.com**
+
+---
+
+*22 projects. All working. All documented.*
