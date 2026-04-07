@@ -1,5 +1,6 @@
 #          DAY-7
 # Contact Book (store name, phone, email).
+
 def Shaban():
     info = {
         "name": "Shaban",
