@@ -1,5 +1,6 @@
 #          DAY-6
 # Guess the Word Game(like hangman lite).
+
 stages = [r'''
   +---+
   |   |
