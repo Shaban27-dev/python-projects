@@ -1,5 +1,6 @@
 #          DAY_5
 # To-Do List program (add, remove, view tasks).
+
 tasks = []
 
 def display_menu():
