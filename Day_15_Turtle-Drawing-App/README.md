@@ -1,46 +1,68 @@
-🎨🐢 Day 15 — Simple Drawing App (Turtle)
+# Day 15 — Simple Drawing App (Turtle)
 
-A fun interactive drawing application made using Python Turtle 🐢.
-Control the turtle with your keyboard to draw, change colors, adjust brush size, and clear/reset the canvas 🎮✨.
+An interactive drawing application built with Python's Turtle module. Control the turtle with your keyboard to draw freely, switch colors, resize the brush, and clear the canvas.
 
-🧾 Features
+---
 
-⬆️⬇️⬅️➡️ Move and turn turtle using arrow keys
+## Features
 
-✍️ Pen up / pen down controls (draw or move freely)
+- Move the turtle in all four directions using arrow keys
+- Lift or lower the pen to draw or reposition freely
+- Switch between Red, Green, and Blue pen colors
+- Enable random color mode
+- Increase or decrease brush size
+- Clear the canvas and reset the turtle's position
 
-🎨 Change colors (Red/Green/Blue)
+---
 
-🌈 Random color mode
+## Concepts used
 
-➕➖ Increase or decrease brush size
+- `turtle` module for graphics and drawing
+- Keyboard event handling with `onkey()` and `listen()`
+- Functions for each control action
+- `random` module for random color generation
+- Conditionals for mode switching
 
-🧽 Clear screen and reset turtle position
+---
 
-🧠 Concepts Used
+## Requirements
 
-Concepts used: 🐢 turtle module, ⌨️ keyboard event handling, 🔁 functions, 🔍 conditionals, 🎨 RGB colors, 🔀 random module, 🧩 interactive programs.
+No external libraries — uses Python's built-in `turtle` module.
 
-✔️ Controls
+---
 
-⬆️ Up Arrow → Move forward
+## How to run
 
-⬇️ Down Arrow → Move backward
+```bash
+python main.py
+```
 
-⬅️ Left Arrow → Turn left
+A Turtle graphics window opens. Use the controls below to draw.
 
-➡️ Right Arrow → Turn right
+---
 
-u → Pen up ✋
+## Controls
 
-p → Pen down ✍️
+| Key | Action |
+|-----|--------|
+| Arrow keys | Move turtle (forward / backward / turn) |
+| `u` | Pen up — move without drawing |
+| `p` | Pen down — resume drawing |
+| `r` | Red pen color |
+| `g` | Green pen color |
+| `b` | Blue pen color |
+| `x` | Random pen color |
+| `+` | Increase brush size |
+| `-` | Decrease brush size |
+| `c` | Clear the canvas |
+| `Space` | Reset turtle to center |
 
-r / g / b → Change color
+---
 
-x → Random color 🌈
+## Project structure
 
-+ / - → Brush size
-
-c → Clear screen 🧽
-
-space → Reset position 🔄
+```
+Day_15_Turtle-Drawing-App/
+├── main.py
+└── README.md
+```
