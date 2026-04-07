@@ -1,5 +1,6 @@
 #          DAY-12
 # Student Report Card Generator (read from file, calculate average).
+
 import os
 
 filename = "C:\\Users\\Lenovo\\classroom\\apna college\\100days\\students.csv"
