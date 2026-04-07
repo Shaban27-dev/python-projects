@@ -1,38 +1,68 @@
-🐍🎮 Day 17 — Modified Snake Game (Speed + Colors + Pause)
+# Day 17 — Modified Snake Game
 
-A modified version of the classic Snake Game built using Python Turtle 🐢.
-This version includes extra features like speed control, snake/background color changes, and a pause/play option for better gameplay ⚡🎨.
+A modified version of the classic Snake game built with Python Turtle. This version adds speed control, snake and background color customization, and a pause/resume toggle on top of the standard gameplay.
 
-🧾 Features
+---
 
-⬆️⬇️⬅️➡️ Snake movement using arrow keys
+## Features
 
-🎨 Change snake color: 🔴 Red / 🟢 Green / 🔵 Blue
+- Classic snake movement using arrow keys
+- Change the snake's color — Red, Green, or Blue
+- Random snake color mode
+- Switch background colors with number keys
+- Speed up or slow down the snake during gameplay
+- Pause and resume at any time
+- Wall collision detection — game ends on contact
 
-🌈 Random snake color mode
+---
 
-🖤 Change background color (1/2/3 keys)
+## Concepts used
 
-⚡ Speed control: ➕ speed up / ➖ speed down
+- `turtle` module for rendering
+- Keyboard event handling with `onkey()` and `listen()`
+- `time` module for delay-based speed control
+- Loops and conditionals for game logic
+- `random` module for random color mode
+- Collision detection with coordinate comparison
 
-⏸️ Pause / Resume gameplay using p
+---
 
-💥 Wall collision detection (Game Over)
+## Requirements
 
-🧠 Concepts Used
+No external libraries — uses Python's built-in `turtle` and `time` modules.
 
-Concepts used: 🐢 turtle module, ⌨️ keyboard event handling, 🔁 loops, 🧩 functions, 🔀 random module, 🎨 RGB colors, ⏱️ time module (delay control), 🔍 conditionals (collision + game logic).
+---
 
-🎮 Controls
+## How to run
 
-⬆️⬇️⬅️➡️ → Move snake
+```bash
+python main.py
+```
 
-r / g / b → Snake color 🔴🟢🔵
+A Turtle graphics window opens. Use the controls below to play.
 
-x → Random snake color 🌈
+---
 
-1 / 2 / 3 → Background colors 🎨
+## Controls
 
-+ / - → Speed up / Speed down ⚡
+| Key | Action |
+|-----|--------|
+| Arrow keys | Move the snake |
+| `r` | Red snake |
+| `g` | Green snake |
+| `b` | Blue snake |
+| `x` | Random snake color |
+| `1` / `2` / `3` | Change background color |
+| `+` | Speed up |
+| `-` | Slow down |
+| `p` | Pause / Resume |
 
-p → Pause / Resume ⏸️▶️
+---
+
+## Project structure
+
+```
+Day_17_Modified-Snake-Game/
+├── main.py
+└── README.md
+```
