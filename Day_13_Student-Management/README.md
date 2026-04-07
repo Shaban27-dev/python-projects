@@ -1,20 +1,56 @@
-🎓✨ Day 13 — Student Management System
+# Day 13 — Student Management System
 
-A command-line Student Management System built using Object-Oriented Programming.
-It allows users to add, remove, update, and view student records through a simple menu-driven interface 🧑‍🎓.
+A command-line student management system built using object-oriented programming. Supports full CRUD operations on student records through a simple menu interface.
 
-🧾 Features
+---
 
-➕ Add student (name, roll number, marks)
+## Features
 
-❌ Remove student using roll number
+- Add a student with name, roll number, and marks
+- Remove a student by roll number
+- Update marks for an existing student
+- View all student records in a formatted table
+- Input validation throughout
 
-✏️ Update student marks
+---
 
-📋 View all student details
+## Concepts used
 
-🚪 Exit the system
+- Object-oriented programming — classes, methods, and encapsulation
+- Lists for record storage
+- Loops and conditionals
+- User input handling and validation
 
-🧠 Concepts Used
+---
 
-Concepts used: Functions, 🔁 loops, 🧮 methods, 🔍 conditionals, 📋 lists, ⌨️ user input handling.
+## How to run
+
+```bash
+python main.py
+```
+
+### Example
+
+```
+1. Add Student
+2. Remove Student
+3. Update Marks
+4. View All Students
+5. Exit
+
+Select option: 1
+Name: Alice
+Roll Number: 101
+Marks: 88
+Student added successfully.
+```
+
+---
+
+## Project structure
+
+```
+Day_13_Student-Management/
+├── main.py
+└── README.md
+```
