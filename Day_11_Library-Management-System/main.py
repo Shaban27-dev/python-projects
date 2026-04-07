@@ -1,5 +1,6 @@
 #          DAY-11
 # Library Management System (add/remove books, check availability).
+
 book_list = [
     {"title": "Harry Potter", "author": "J.K. Rowling"},
     {"title": "Atomic Habits", "author": "James Clear"},

@@ -1,20 +1,54 @@
-📚✨ Day 11 — Library Management System
+# Day 11 — Library Management System
 
-A simple and interactive command-line Library Management System that allows users to manage books easily.
-You can add books, remove them, check availability, or view the entire library — all through a clean menu-based interface 🎮.
+An interactive command-line library system for managing a book catalog. Add books, remove them, check availability, or browse the full collection through a clean menu interface.
 
-🧾 Features
+---
 
-➕ Add Book
+## Features
 
-❌ Remove Book
+- Add a book to the library
+- Remove a book by title
+- Check whether a specific book is available
+- View all books in the library
+- Prevents adding duplicate entries
 
-🔍 Check Book Availability
+---
 
-📖 View All Books
+## Concepts used
 
-🚪 Exit
+- Dictionaries and lists for catalog storage
+- Functions for modular menu handling
+- Loops for continuous operation
+- String comparison for search and match
 
-🧠 Concepts Used
+---
 
-Concepts used: 🧾 dictionaries, 📚 lists, 🔁 loops, 🧩 functions, 🔍 string comparison, ⚙️ menu-driven programs, ⌨️ user input handling.
+## How to run
+
+```bash
+python main.py
+```
+
+### Example
+
+```
+1. Add Book
+2. Remove Book
+3. Check Availability
+4. View All Books
+5. Exit
+
+Select option: 3
+Enter book title: The Alchemist
+Status: Available
+```
+
+---
+
+## Project structure
+
+```
+Day_11_Library-Management-System/
+├── main.py
+└── README.md
+```
