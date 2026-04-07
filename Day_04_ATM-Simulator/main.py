@@ -1,5 +1,6 @@
 #          DAY_4
 # Simple ATM simulator(Deposit, Withdraw, Balance).
+
 balance = 10000
 
 def check_balance():
