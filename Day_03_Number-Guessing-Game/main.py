@@ -1,5 +1,6 @@
 #          DAY_3
 # Number Guessing Game (computer picks random number, user guesses).
+
 import random
 
 def num_guessing(attempt, max_num):
