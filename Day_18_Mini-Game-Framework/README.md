@@ -1,46 +1,76 @@
-🎮🕹️ Day 18 — Mini Game Framework (OOP)
+# Day 18 — Mini Game Framework (OOP)
 
-A fun Mini Game Framework built using Object-Oriented Programming in Python.
-This project includes a base Game class and multiple child games that can be played from a launcher menu 🎯✨.
+A menu-driven game launcher built with object-oriented programming. A reusable base `Game` class provides shared logic — score tracking, menus, and end screens — and three child games inherit from it.
 
-🧾 Features
+---
 
-📋 Menu-based game launcher system
+## Features
 
-🧩 Base Game class framework (score + menu + end screen)
+- Menu-based launcher to select and start any game
+- Base `Game` class with shared score tracking and session management
+- Three built-in mini games (see below)
+- Replay any game without returning to the launcher
+- Clean inheritance structure — easy to extend with new games
 
-🎯 Includes 3 mini games:
+---
 
-🔢 Guess The Number
+## Games included
 
-🧠 Quiz Game (random 5 questions)
+### Guess the Number
+- Computer picks a random number between 0 and 20
+- Player keeps guessing until correct
+- Counts attempts per round
 
-✊✋✌️ Rock Paper Scissors
+### Quiz Game
+- Randomly selects 5 questions from a question bank
+- Tracks score and shows percentage at the end
 
-📊 Score tracking system
+### Rock Paper Scissors
+- Player vs computer
+- First to 5 wins is declared the champion
 
-🔁 Uses inheritance and reusable code structure
+---
 
-🧠 Concepts Used
+## Concepts used
 
-Concepts used: 🧠 OOP, 🧩 inheritance, 🏛️ base & child classes, 📚 lists & dictionaries, 🔁 loops, 🔀 random module, 🔍 conditionals, ⌨️ user input handling.
+- Object-oriented programming — inheritance, base and child classes
+- Lists and dictionaries for question and game data
+- `random` module for number generation and question selection
+- Loops and conditionals for game logic
+- User input handling
 
-🎮 Games Included
+---
 
-🔢 Guess The Number
+## How to run
 
-Computer selects a random number (0–20)
+```bash
+python main.py
+```
 
-Player keeps guessing until correct ✅
+### Example
 
-🧠 Quiz Game
+```
+===== Mini Game Launcher =====
+1. Guess the Number
+2. Quiz Game
+3. Rock Paper Scissors
+4. Exit
 
-Randomly selects 5 questions from a question bank
+Select a game: 2
 
-Tracks score and shows percentage 📊
+Q1: What is the largest planet in the solar system?
+Your answer: Jupiter
+Correct!
+...
+Final Score: 4/5 (80%)
+```
 
-✊✋✌️ Rock Paper Scissors
+---
 
-Player vs computer
+## Project structure
 
-First to 5 wins becomes champion 🏆
+```
+Day_18_Mini-Game-Framework/
+├── main.py
+└── README.md
+```

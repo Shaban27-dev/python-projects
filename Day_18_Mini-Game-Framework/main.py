@@ -2,6 +2,7 @@
 #Mini Game Framework
 # Base Game class
 # Child classes for different games
+
 import random
 
 
