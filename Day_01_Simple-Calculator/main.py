@@ -1,5 +1,6 @@
 #          DAY_1
 # Simple Calculator(take two numbers + operator, print result).
+
 a = int(input("Enter first num: "))
 c = input("Choose one from these('+', '-', '*', '/'): ")
 b = int(input("Enter second num: "))
