@@ -3,6 +3,7 @@
 # Questions stored in a list/dict
 # Score tracking
 # Replay option
+
 import random
 questions = [
   {

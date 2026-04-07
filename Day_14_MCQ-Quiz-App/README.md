@@ -1,20 +1,59 @@
-🧠🎯 Day 14 — MCQ Quiz App (OOP)
+# Day 14 — MCQ Quiz App (OOP)
 
-A command-line multiple-choice quiz application built using Object-Oriented Programming.
-The app presents shuffled questions, tracks the user’s score, and allows replaying the quiz 🎮.
+A command-line multiple-choice quiz application built with object-oriented programming. Questions are shuffled each session, scores are tracked in real time, and the user can replay without restarting.
 
-🧾 Features
+---
 
-❓ Multiple-choice questions (A/B/C/D)
+## Features
 
-🔀 Randomized question order
+- Multiple-choice questions with options A / B / C / D
+- Randomized question order every session
+- Score tracked and displayed after each question
+- Replay option at the end without relaunching the program
+- Final score and percentage displayed on completion
 
-📊 Score tracking after each question
+---
 
-🔁 Replay option without restarting the program
+## Concepts used
 
-🎯 Final score and percentage display
+- Object-oriented programming — classes and objects
+- Lists and dictionaries for question storage
+- `random` module for shuffling
+- Loops and conditional statements
+- User input handling
 
-🧠 Concepts Used
+---
 
-Concepts used: 🧠 OOP, 🧩 classes & objects, 📚 lists & dictionaries, 🔁 loops, 🔀 random module, 🔍 conditionals, ⌨️ user input handling.
+## How to run
+
+```bash
+python main.py
+```
+
+### Example
+
+```
+Q1: What does CPU stand for?
+A. Central Processing Unit
+B. Core Power Unit
+C. Central Program Utility
+D. Computer Processing Unit
+
+Your answer: A
+Correct! Score: 1/1
+
+...
+
+Final Score: 4/5 (80%)
+Play again? (yes/no): no
+```
+
+---
+
+## Project structure
+
+```
+Day_14_MCQ-Quiz-App/
+├── main.py
+└── README.md
+```
