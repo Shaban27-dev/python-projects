@@ -2,6 +2,7 @@
 # Smart Calculator
 # Operations stored in a dictionary
 # User chooses operation dynamically
+
 def add(n1, n2):
     return n1 + n2
 

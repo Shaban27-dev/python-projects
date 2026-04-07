@@ -1,30 +1,56 @@
-🧮⚡ Day 16 — Smart Calculator (Dictionary Based)
+# Day 16 — Smart Calculator (Dictionary-Based)
 
-A smart command-line calculator built in Python that supports multiple operations using a dictionary-based system.
-It allows users to continue calculations with the previous result, start a new calculation, or exit anytime 🔁✨.
+A command-line calculator that supports seven arithmetic operations through a dictionary-based dispatch system. The result of each calculation can be carried forward into the next, making it easy to chain operations without re-entering numbers.
 
-🧾 Features
+---
 
-➕ Addition (+)
+## Features
 
-➖ Subtraction (-)
+- Addition, subtraction, multiplication, and division
+- Power, modulo, and floor division
+- Division-by-zero protection
+- Continue calculating using the current result
+- Start a new calculation at any point
+- Exit option available at every prompt
 
-✖️ Multiplication (*)
+---
 
-➗ Division (/) with division-by-zero protection
+## Concepts used
 
-🔋 Power (**)
+- Dictionary mapping for operation dispatch
+- Functions for modular calculation logic
+- Loops for continuous operation
+- Conditional statements and error handling
+- User input handling
 
-🧩 Modulo (%)
+---
 
-📉 Floor Division (//)
+## How to run
 
-🔁 Continue using the current result
+```bash
+python main.py
+```
 
-🆕 Start a new calculation
+### Example
 
-🚪 Exit option
+```
+Enter first number: 20
+Choose operation (+, -, *, /, **, %, //): *
+Enter second number: 3
+Result: 60
 
-🧠 Concepts Used
+Continue with 60? (yes/no): yes
+Choose operation: **
+Enter second number: 2
+Result: 3600
+```
 
-Concepts used: 🧾 dictionary mapping, 🔧 functions, 🔁 loops, 🔍 conditionals, ➗ error handling, ⌨️ user input handling, 🧮 mathematical operations.
+---
+
+## Project structure
+
+```
+Day_16_Smart-Calculator/
+├── main.py
+└── README.md
+```
